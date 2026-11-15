@@ -1,0 +1,26 @@
+{
+ "N": 139255,
+ "E": 2700513,
+ "source": "FlyWire v783 (Dorkenwald et al. 2024, Zenodo 10676866)",
+ "classes": [
+  "sonst",
+  "Hoer-Neuron (JON)",
+  "Fotorezeptor",
+  "absteigend (DN)",
+  "Motor",
+  "Kenyonzelle",
+  "Zentralkomplex",
+  "Dopamin"
+ ],
+ "counts": [
+  117759,
+  393,
+  11153,
+  1305,
+  110,
+  5177,
+  2878,
+  480
+ ],
+ "inhibitory": 35622
+}
