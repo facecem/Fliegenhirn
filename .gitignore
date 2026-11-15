@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Kommerzielle Musik / Videos (urheberrechtlich geschützt, bleiben lokal)
+Neuer Ordner/
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# Lokale Tool-Einstellungen
+.claude/

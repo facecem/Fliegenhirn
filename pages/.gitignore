@@ -1,0 +1,13 @@
+# Musik und alles, was daraus entsteht, gehoert nicht ins Repo
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.mp4
+video/
+plan.json
+plan_cache*.json
+check.json
+ratings.json
+prefs.json
+show.json

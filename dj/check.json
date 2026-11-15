@@ -1,0 +1,254 @@
+{
+ "Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis.mp3|9965773>>Shirin David - Bauch Beine Po [Official Video].mp3|5420487": {
+  "drop": {
+   "pre": -12.1,
+   "post": -11.1,
+   "jump": 1,
+   "dip": -8.8,
+   "hole": 0,
+   "hit": -0.3,
+   "peak": 0.98,
+   "warn": [],
+   "ownHit": -0.4,
+   "note": []
+  }
+ },
+ "Shirin David - Bauch Beine Po [Official Video].mp3|5420487>>Dua Lipa - Don't Start Now (Official Music Video).mp3|7315770": {
+  "cut": {
+   "pre": -10.7,
+   "post": -12.9,
+   "jump": -2.2,
+   "dip": -10.1,
+   "hole": 0.25,
+   "hit": 0,
+   "peak": 0.97,
+   "warn": [],
+   "ownHit": 0.6,
+   "note": []
+  },
+  "drop": {
+   "pre": -10.7,
+   "post": -12.9,
+   "jump": -2.2,
+   "dip": -10.9,
+   "hole": 0.25,
+   "hit": 0,
+   "peak": 0.94,
+   "warn": [],
+   "ownHit": 0.6,
+   "note": []
+  }
+ },
+ "Dua Lipa - Don't Start Now (Official Music Video).mp3|7315770>>Rihanna - Only Girl (In The World).mp3|10122706": {
+  "echo": {
+   "pre": -13.3,
+   "post": -12.3,
+   "jump": 0.9,
+   "dip": -6.6,
+   "hole": 0,
+   "hit": 1.7,
+   "peak": 0.97,
+   "warn": [],
+   "ownHit": 0.5,
+   "note": []
+  }
+ },
+ "Rihanna - Only Girl (In The World).mp3|10122706>>The Black Eyed Peas - I Gotta Feeling (Official Music Video).mp3|11724419": {
+  "bass": {
+   "pre": -15.1,
+   "post": -12.1,
+   "jump": 3,
+   "dip": -7,
+   "hole": 0,
+   "hit": 1.8,
+   "peak": 0.95,
+   "warn": [],
+   "ownHit": 0.7,
+   "note": []
+  }
+ },
+ "The Black Eyed Peas - I Gotta Feeling (Official Music Video).mp3|11724419>>Rihanna - Where Have You Been.mp3|10798111": {
+  "filter": {
+   "pre": -11,
+   "post": -12.3,
+   "jump": -1.4,
+   "dip": -11.7,
+   "hole": 0.75,
+   "hit": -3.4,
+   "peak": 0.95,
+   "warn": [],
+   "ownHit": -1.7,
+   "note": []
+  }
+ },
+ "Rihanna - Where Have You Been.mp3|10798111>>Rihanna - We Found Love ft. Calvin Harris.mp3|11048693": {
+  "drop": {
+   "pre": -13,
+   "post": -15.7,
+   "jump": -2.7,
+   "dip": -9.4,
+   "hole": 0,
+   "hit": 0.9,
+   "peak": 0.98,
+   "warn": [],
+   "ownHit": 1.6,
+   "note": []
+  }
+ },
+ "Rihanna - We Found Love ft. Calvin Harris.mp3|11048693>>Rihanna - S&M.mp3|9837469": {
+  "chop": {
+   "pre": -16,
+   "post": -11,
+   "jump": 5.1,
+   "dip": -5,
+   "hole": 0,
+   "hit": 0.4,
+   "peak": 0.9,
+   "warn": [],
+   "ownHit": 0,
+   "note": [
+    "danach 5 dB lauter"
+   ]
+  }
+ },
+ "Rihanna - S&M.mp3|9837469>>Domiziana - Ohne Benzin (prod. by Replay Okay _ Offizielles Video).mp3|6885260": {
+  "eq": {
+   "pre": -11.2,
+   "post": -10.9,
+   "jump": 0.3,
+   "dip": -10.3,
+   "hole": 0.25,
+   "hit": -4.4,
+   "peak": 0.91,
+   "warn": [],
+   "ownHit": -2,
+   "note": []
+  }
+ },
+ "Domiziana - Ohne Benzin (prod. by Replay Okay _ Offizielles Video).mp3|6885260>>Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis.mp3|9965773": {
+  "echo": {
+   "pre": -12.8,
+   "post": -12.2,
+   "jump": 0.5,
+   "dip": -9.4,
+   "hole": 0,
+   "hit": 1.6,
+   "peak": 0.99,
+   "warn": [],
+   "ownHit": 1.5,
+   "note": []
+  }
+ },
+ "Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis.mp3|9965773>>Rihanna - S&M.mp3|9837469": {
+  "drop": {
+   "pre": -12.1,
+   "post": -10.9,
+   "jump": 1.3,
+   "dip": -7.1,
+   "hole": 0,
+   "hit": -0.4,
+   "peak": 0.98,
+   "warn": [],
+   "ownHit": 0,
+   "note": []
+  }
+ },
+ "Domiziana - Ohne Benzin (prod. by Replay Okay _ Offizielles Video).mp3|6885260>>Peggy Gou - (It Goes Like) Nanana - Official Video.mp3|6678151": {
+  "cut": {
+   "pre": -12.7,
+   "post": -12.2,
+   "jump": 0.5,
+   "dip": -9.5,
+   "hole": 0,
+   "hit": -1.8,
+   "peak": 0.96,
+   "warn": [],
+   "ownHit": -1.2,
+   "note": []
+  }
+ },
+ "Peggy Gou - (It Goes Like) Nanana - Official Video.mp3|6678151>>Calvin Harris, Rihanna - This Is What You Came For (Official Video).mp3|9640929": {
+  "bass": {
+   "pre": -11.5,
+   "post": -11.1,
+   "jump": 0.4,
+   "dip": -5.9,
+   "hole": 0,
+   "hit": -0.7,
+   "peak": 0.99,
+   "warn": [],
+   "ownHit": -0.1,
+   "note": []
+  }
+ },
+ "Calvin Harris, Rihanna - This Is What You Came For (Official Video).mp3|9640929>>Shirin David - Bauch Beine Po [Official Video].mp3|5420487": {
+  "filter": {
+   "pre": -12.5,
+   "post": -11.2,
+   "jump": 1.4,
+   "dip": -9.9,
+   "hole": 0,
+   "hit": 1,
+   "peak": 0.97,
+   "warn": [],
+   "ownHit": -0.4,
+   "note": []
+  }
+ },
+ "Rihanna - Only Girl (In The World).mp3|10122706>>FISHER - Losing It (Official Audio).mp3|10057519": {
+  "chop": {
+   "pre": -15.1,
+   "post": -12.2,
+   "jump": 2.9,
+   "dip": -7,
+   "hole": 0,
+   "hit": -1.2,
+   "peak": 0.92,
+   "warn": [],
+   "ownHit": -0.9,
+   "note": []
+  }
+ },
+ "FISHER - Losing It (Official Audio).mp3|10057519>>Ikkimel - KETA UND KRAWALL (prod. by Barré _ Offizielles Musikvideo).mp3|5506154": {
+  "rolldrop": {
+   "pre": -11.4,
+   "post": -11.2,
+   "jump": 0.2,
+   "dip": -13,
+   "hole": 1.5,
+   "hit": -0.8,
+   "peak": 0.92,
+   "warn": [],
+   "ownHit": 1.1,
+   "note": []
+  }
+ },
+ "Ikkimel - KETA UND KRAWALL (prod. by Barré _ Offizielles Musikvideo).mp3|5506154>>Ikkimel - BIKINI GRELL (prod. by Robbensohn _ Offizielles Musikvideo).mp3|6437083": {
+  "drop": {
+   "pre": -11.5,
+   "post": -11.7,
+   "jump": -0.2,
+   "dip": -9.9,
+   "hole": 0,
+   "hit": 0.5,
+   "peak": 0.97,
+   "warn": [],
+   "ownHit": 0.2,
+   "note": []
+  }
+ },
+ "Ikkimel - BIKINI GRELL (prod. by Robbensohn _ Offizielles Musikvideo).mp3|6437083>>Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis.mp3|9965773": {
+  "filterdrop": {
+   "pre": -10.9,
+   "post": -12.3,
+   "jump": -1.3,
+   "dip": -8.9,
+   "hole": 0,
+   "hit": 2,
+   "peak": 0.96,
+   "warn": [],
+   "ownHit": 1.5,
+   "note": []
+  }
+ }
+}

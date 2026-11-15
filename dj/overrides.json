@@ -1,0 +1,3 @@
+{
+ "_hinweis": "Hier kannst du pro Song den Hoehepunkt von Hand festlegen, wenn der Planer danebenliegt. Schluessel = Teil des Dateinamens, Werte in Sekunden. Beispiel: \"We Found Love\": {\"einstieg\": 67.5, \"ausstieg\": 97.5}. Nur \"einstieg\" geht auch."
+}
