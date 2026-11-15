@@ -1,0 +1,4953 @@
+{
+ "meta": {
+  "source": "FlyWire FAFB v783 (Zenodo 10676866)",
+  "regions": 44,
+  "edges": 772,
+  "merged_sides": true,
+  "neurons_total": 139255
+ },
+ "nodes": [
+  {
+   "id": "ME",
+   "name": "Medulla",
+   "system": "optic",
+   "neurons": 66781,
+   "exc_frac": 0.642
+  },
+  {
+   "id": "LO",
+   "name": "Lobula",
+   "system": "optic",
+   "neurons": 14555,
+   "exc_frac": 0.626
+  },
+  {
+   "id": "AVLP",
+   "name": "Ant.-vent. lat. Protocerebrum",
+   "system": "ventrolateral",
+   "neurons": 3739,
+   "exc_frac": 0.63
+  },
+  {
+   "id": "GNG",
+   "name": "Gnathalganglion (Mund)",
+   "system": "motor_gustatory",
+   "neurons": 5413,
+   "exc_frac": 0.522
+  },
+  {
+   "id": "AL",
+   "name": "Antennallobus (Riechen)",
+   "system": "olfactory",
+   "neurons": 3302,
+   "exc_frac": 0.817
+  },
+  {
+   "id": "LOP",
+   "name": "Lobula-Platte",
+   "system": "optic",
+   "neurons": 3331,
+   "exc_frac": 0.296
+  },
+  {
+   "id": "SMP",
+   "name": "Sup.-med. Protocerebrum",
+   "system": "superior",
+   "neurons": 3181,
+   "exc_frac": 0.527
+  },
+  {
+   "id": "SPS",
+   "name": "Sup. post. slope",
+   "system": "central",
+   "neurons": 1279,
+   "exc_frac": 0.495
+  },
+  {
+   "id": "PLP",
+   "name": "Post.-lat. Protocerebrum",
+   "system": "ventrolateral",
+   "neurons": 1873,
+   "exc_frac": 0.451
+  },
+  {
+   "id": "PVLP",
+   "name": "Post.-vent. lat. Protocerebrum",
+   "system": "ventrolateral",
+   "neurons": 899,
+   "exc_frac": 0.517
+  },
+  {
+   "id": "LAL",
+   "name": "Lateraler Akzessorlobus",
+   "system": "central_complex",
+   "neurons": 868,
+   "exc_frac": 0.457
+  },
+  {
+   "id": "IPS",
+   "name": "Inf. post. slope",
+   "system": "central",
+   "neurons": 1605,
+   "exc_frac": 0.526
+  },
+  {
+   "id": "LH",
+   "name": "Lateral Horn",
+   "system": "lateral_horn",
+   "neurons": 2678,
+   "exc_frac": 0.472
+  },
+  {
+   "id": "SLP",
+   "name": "Sup.-lat. Protocerebrum",
+   "system": "superior",
+   "neurons": 2677,
+   "exc_frac": 0.497
+  },
+  {
+   "id": "FB",
+   "name": "Fan-shaped Body",
+   "system": "central_complex",
+   "neurons": 1714,
+   "exc_frac": 0.556
+  },
+  {
+   "id": "VES",
+   "name": "Vest",
+   "system": "central",
+   "neurons": 418,
+   "exc_frac": 0.45
+  },
+  {
+   "id": "MB_CA",
+   "name": "Pilzkörper-Lobus",
+   "system": "mushroom_body",
+   "neurons": 4660,
+   "exc_frac": 0.977
+  },
+  {
+   "id": "SAD",
+   "name": "Saddle",
+   "system": "motor_gustatory",
+   "neurons": 1048,
+   "exc_frac": 0.453
+  },
+  {
+   "id": "ICL",
+   "name": "Inferior clamp",
+   "system": "central",
+   "neurons": 770,
+   "exc_frac": 0.584
+  },
+  {
+   "id": "LA",
+   "name": "Lamina",
+   "system": "optic",
+   "neurons": 7376,
+   "exc_frac": 0.647
+  },
+  {
+   "id": "CRE",
+   "name": "Crepine",
+   "system": "central",
+   "neurons": 701,
+   "exc_frac": 0.514
+  },
+  {
+   "id": "MB_ML",
+   "name": "Pilzkörper-Lobus",
+   "system": "mushroom_body",
+   "neurons": 282,
+   "exc_frac": 0.228
+  },
+  {
+   "id": "EB",
+   "name": "Ellipsoid Body",
+   "system": "central_complex",
+   "neurons": 365,
+   "exc_frac": 0.266
+  },
+  {
+   "id": "PRW",
+   "name": "Prow",
+   "system": "motor_gustatory",
+   "neurons": 614,
+   "exc_frac": 0.609
+  },
+  {
+   "id": "AOTU",
+   "name": "Ant.-opt. Tuberkel",
+   "system": "visual_central",
+   "neurons": 722,
+   "exc_frac": 0.621
+  },
+  {
+   "id": "WED",
+   "name": "Wedge",
+   "system": "ventrolateral",
+   "neurons": 461,
+   "exc_frac": 0.496
+  },
+  {
+   "id": "SCL",
+   "name": "Superior clamp",
+   "system": "central",
+   "neurons": 433,
+   "exc_frac": 0.536
+  },
+  {
+   "id": "SIP",
+   "name": "Sup.-interm. Protocerebrum",
+   "system": "superior",
+   "neurons": 372,
+   "exc_frac": 0.698
+  },
+  {
+   "id": "AMMC",
+   "name": "AMMC",
+   "system": "other",
+   "neurons": 508,
+   "exc_frac": 0.763
+  },
+  {
+   "id": "IB",
+   "name": "Inferior bridge",
+   "system": "central",
+   "neurons": 141,
+   "exc_frac": 0.267
+  },
+  {
+   "id": "NO",
+   "name": "Noduli",
+   "system": "central_complex",
+   "neurons": 450,
+   "exc_frac": 0.849
+  },
+  {
+   "id": "FLA",
+   "name": "Flange",
+   "system": "motor_gustatory",
+   "neurons": 339,
+   "exc_frac": 0.505
+  },
+  {
+   "id": "MB_VL",
+   "name": "Pilzkörper-Lobus",
+   "system": "mushroom_body",
+   "neurons": 57,
+   "exc_frac": 0.949
+  },
+  {
+   "id": "PB",
+   "name": "Protocerebral Bridge",
+   "system": "central_complex",
+   "neurons": 116,
+   "exc_frac": 0.478
+  },
+  {
+   "id": "ATL",
+   "name": "Antler",
+   "system": "central",
+   "neurons": 49,
+   "exc_frac": 0.392
+  },
+  {
+   "id": "MB_PED",
+   "name": "Pilzkörper-Lobus",
+   "system": "mushroom_body",
+   "neurons": 35,
+   "exc_frac": 0.409
+  },
+  {
+   "id": "OCG",
+   "name": "OCG",
+   "system": "other",
+   "neurons": 270,
+   "exc_frac": 0.667
+  },
+  {
+   "id": "AME",
+   "name": "Akzessor. Medulla",
+   "system": "optic",
+   "neurons": 38,
+   "exc_frac": 0.438
+  },
+  {
+   "id": "GOR",
+   "name": "Gorget",
+   "system": "central",
+   "neurons": 25,
+   "exc_frac": 0.475
+  },
+  {
+   "id": "GA",
+   "name": "Gall",
+   "system": "central_complex",
+   "neurons": 7,
+   "exc_frac": 0.037
+  },
+  {
+   "id": "CAN",
+   "name": "Calyx (Pilzkörper)",
+   "system": "mushroom_body",
+   "neurons": 12,
+   "exc_frac": 0.38
+  },
+  {
+   "id": "EPA",
+   "name": "Epaulette",
+   "system": "central",
+   "neurons": 9,
+   "exc_frac": 0.642
+  },
+  {
+   "id": "UNASGD",
+   "name": "UNASGD",
+   "system": "other",
+   "neurons": 7,
+   "exc_frac": 0.339
+  },
+  {
+   "id": "BU",
+   "name": "Bulbus",
+   "system": "central_complex",
+   "neurons": 1,
+   "exc_frac": 0.5
+  }
+ ],
+ "edges": [
+  {
+   "s": "AL",
+   "t": "AL",
+   "w": 1077554,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "ATL",
+   "w": 283,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "AVLP",
+   "w": 8891,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "CRE",
+   "w": 5268,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "FB",
+   "w": 647,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "GNG",
+   "w": 7835,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "ICL",
+   "w": 616,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "IPS",
+   "w": 4267,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "LAL",
+   "w": 3252,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "LH",
+   "w": 375112,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "LO",
+   "w": 1389,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "MB_CA",
+   "w": 317000,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "MB_ML",
+   "w": 4422,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "MB_VL",
+   "w": 752,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "ME",
+   "w": 308,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "PLP",
+   "w": 33322,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "PRW",
+   "w": 1133,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "PVLP",
+   "w": 1654,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "SAD",
+   "w": 1088,
+   "sign": -1
+  },
+  {
+   "s": "AL",
+   "t": "SCL",
+   "w": 2616,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "SIP",
+   "w": 2744,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "SLP",
+   "w": 21889,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "SMP",
+   "w": 20076,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "SPS",
+   "w": 3476,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "VES",
+   "w": 4821,
+   "sign": 1
+  },
+  {
+   "s": "AL",
+   "t": "WED",
+   "w": 6931,
+   "sign": 1
+  },
+  {
+   "s": "AME",
+   "t": "AME",
+   "w": 3582,
+   "sign": -1
+  },
+  {
+   "s": "AME",
+   "t": "ICL",
+   "w": 302,
+   "sign": 1
+  },
+  {
+   "s": "AME",
+   "t": "ME",
+   "w": 2886,
+   "sign": -1
+  },
+  {
+   "s": "AME",
+   "t": "PLP",
+   "w": 4282,
+   "sign": 1
+  },
+  {
+   "s": "AME",
+   "t": "SLP",
+   "w": 507,
+   "sign": -1
+  },
+  {
+   "s": "AME",
+   "t": "SMP",
+   "w": 540,
+   "sign": -1
+  },
+  {
+   "s": "AMMC",
+   "t": "AMMC",
+   "w": 20106,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "AVLP",
+   "w": 30452,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "GNG",
+   "w": 7570,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "ICL",
+   "w": 450,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "IPS",
+   "w": 5465,
+   "sign": -1
+  },
+  {
+   "s": "AMMC",
+   "t": "LO",
+   "w": 927,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "PLP",
+   "w": 1430,
+   "sign": -1
+  },
+  {
+   "s": "AMMC",
+   "t": "PVLP",
+   "w": 3341,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "SAD",
+   "w": 29609,
+   "sign": 1
+  },
+  {
+   "s": "AMMC",
+   "t": "SPS",
+   "w": 1841,
+   "sign": -1
+  },
+  {
+   "s": "AMMC",
+   "t": "WED",
+   "w": 23185,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "AOTU",
+   "w": 87846,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "AVLP",
+   "w": 344,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "CRE",
+   "w": 1477,
+   "sign": -1
+  },
+  {
+   "s": "AOTU",
+   "t": "EB",
+   "w": 20798,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "FB",
+   "w": 274,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "GNG",
+   "w": 3161,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "IB",
+   "w": 2041,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "ICL",
+   "w": 616,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "IPS",
+   "w": 9200,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "LAL",
+   "w": 27620,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "LO",
+   "w": 23134,
+   "sign": -1
+  },
+  {
+   "s": "AOTU",
+   "t": "ME",
+   "w": 3283,
+   "sign": -1
+  },
+  {
+   "s": "AOTU",
+   "t": "PLP",
+   "w": 2237,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "PVLP",
+   "w": 505,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "SCL",
+   "w": 371,
+   "sign": -1
+  },
+  {
+   "s": "AOTU",
+   "t": "SIP",
+   "w": 1829,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "SLP",
+   "w": 354,
+   "sign": -1
+  },
+  {
+   "s": "AOTU",
+   "t": "SMP",
+   "w": 4604,
+   "sign": -1
+  },
+  {
+   "s": "AOTU",
+   "t": "SPS",
+   "w": 24213,
+   "sign": 1
+  },
+  {
+   "s": "AOTU",
+   "t": "VES",
+   "w": 6760,
+   "sign": 1
+  },
+  {
+   "s": "ATL",
+   "t": "ATL",
+   "w": 1336,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "CRE",
+   "w": 3028,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "FB",
+   "w": 357,
+   "sign": 1
+  },
+  {
+   "s": "ATL",
+   "t": "IB",
+   "w": 675,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "ICL",
+   "w": 452,
+   "sign": 1
+  },
+  {
+   "s": "ATL",
+   "t": "LAL",
+   "w": 1552,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "LH",
+   "w": 607,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "PLP",
+   "w": 705,
+   "sign": 1
+  },
+  {
+   "s": "ATL",
+   "t": "SIP",
+   "w": 197,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "SLP",
+   "w": 207,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "SMP",
+   "w": 5688,
+   "sign": -1
+  },
+  {
+   "s": "ATL",
+   "t": "SPS",
+   "w": 1015,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "AL",
+   "w": 343,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "AMMC",
+   "w": 6344,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "AOTU",
+   "w": 3520,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "AVLP",
+   "w": 1969618,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "CRE",
+   "w": 3200,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "FB",
+   "w": 604,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "FLA",
+   "w": 1572,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "GNG",
+   "w": 77751,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "GOR",
+   "w": 2257,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "IB",
+   "w": 3373,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "ICL",
+   "w": 111038,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "IPS",
+   "w": 6166,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "LAL",
+   "w": 13371,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "LH",
+   "w": 8869,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "LO",
+   "w": 35893,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "LOP",
+   "w": 688,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "MB_CA",
+   "w": 258,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "ME",
+   "w": 23952,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "PLP",
+   "w": 31852,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "PRW",
+   "w": 429,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "PVLP",
+   "w": 147722,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "SAD",
+   "w": 16445,
+   "sign": -1
+  },
+  {
+   "s": "AVLP",
+   "t": "SCL",
+   "w": 15289,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "SIP",
+   "w": 11969,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "SLP",
+   "w": 65444,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "SMP",
+   "w": 27457,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "SPS",
+   "w": 19210,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "VES",
+   "w": 12413,
+   "sign": 1
+  },
+  {
+   "s": "AVLP",
+   "t": "WED",
+   "w": 24501,
+   "sign": -1
+  },
+  {
+   "s": "CAN",
+   "t": "AVLP",
+   "w": 240,
+   "sign": -1
+  },
+  {
+   "s": "CAN",
+   "t": "GNG",
+   "w": 1551,
+   "sign": -1
+  },
+  {
+   "s": "CAN",
+   "t": "ICL",
+   "w": 283,
+   "sign": -1
+  },
+  {
+   "s": "CAN",
+   "t": "SMP",
+   "w": 233,
+   "sign": -1
+  },
+  {
+   "s": "CAN",
+   "t": "SPS",
+   "w": 406,
+   "sign": 1
+  },
+  {
+   "s": "CAN",
+   "t": "VES",
+   "w": 252,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "AL",
+   "w": 8097,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "AOTU",
+   "w": 3565,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "ATL",
+   "w": 3570,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "AVLP",
+   "w": 4410,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "CRE",
+   "w": 56060,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "EB",
+   "w": 1272,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "FB",
+   "w": 24912,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "FLA",
+   "w": 226,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "GNG",
+   "w": 4444,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "IB",
+   "w": 3684,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "ICL",
+   "w": 1348,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "IPS",
+   "w": 1385,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "LAL",
+   "w": 42020,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "LH",
+   "w": 8692,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "LO",
+   "w": 1136,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "MB_ML",
+   "w": 4097,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "MB_VL",
+   "w": 2710,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "ME",
+   "w": 337,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "PLP",
+   "w": 4066,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "PRW",
+   "w": 806,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "PVLP",
+   "w": 900,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "SAD",
+   "w": 885,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "SCL",
+   "w": 1173,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "SIP",
+   "w": 6069,
+   "sign": -1
+  },
+  {
+   "s": "CRE",
+   "t": "SLP",
+   "w": 6895,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "SMP",
+   "w": 68360,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "SPS",
+   "w": 9913,
+   "sign": 1
+  },
+  {
+   "s": "CRE",
+   "t": "VES",
+   "w": 6602,
+   "sign": 1
+  },
+  {
+   "s": "EB",
+   "t": "AOTU",
+   "w": 802,
+   "sign": -1
+  },
+  {
+   "s": "EB",
+   "t": "CRE",
+   "w": 681,
+   "sign": -1
+  },
+  {
+   "s": "EB",
+   "t": "EB",
+   "w": 220066,
+   "sign": -1
+  },
+  {
+   "s": "EB",
+   "t": "FB",
+   "w": 10596,
+   "sign": -1
+  },
+  {
+   "s": "EB",
+   "t": "GA",
+   "w": 2410,
+   "sign": 1
+  },
+  {
+   "s": "EB",
+   "t": "LAL",
+   "w": 1272,
+   "sign": 1
+  },
+  {
+   "s": "EB",
+   "t": "NO",
+   "w": 6790,
+   "sign": 1
+  },
+  {
+   "s": "EB",
+   "t": "PB",
+   "w": 6701,
+   "sign": 1
+  },
+  {
+   "s": "EB",
+   "t": "SMP",
+   "w": 301,
+   "sign": -1
+  },
+  {
+   "s": "EPA",
+   "t": "AVLP",
+   "w": 332,
+   "sign": 1
+  },
+  {
+   "s": "EPA",
+   "t": "PVLP",
+   "w": 380,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "AOTU",
+   "w": 2918,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "CRE",
+   "w": 6390,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "EB",
+   "w": 4822,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "FB",
+   "w": 490994,
+   "sign": -1
+  },
+  {
+   "s": "FB",
+   "t": "GNG",
+   "w": 303,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "IPS",
+   "w": 383,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "LAL",
+   "w": 32566,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "MB_ML",
+   "w": 2322,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "NO",
+   "w": 4469,
+   "sign": -1
+  },
+  {
+   "s": "FB",
+   "t": "PB",
+   "w": 1104,
+   "sign": -1
+  },
+  {
+   "s": "FB",
+   "t": "PLP",
+   "w": 716,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "SIP",
+   "w": 434,
+   "sign": -1
+  },
+  {
+   "s": "FB",
+   "t": "SLP",
+   "w": 800,
+   "sign": -1
+  },
+  {
+   "s": "FB",
+   "t": "SMP",
+   "w": 9927,
+   "sign": -1
+  },
+  {
+   "s": "FB",
+   "t": "SPS",
+   "w": 2353,
+   "sign": 1
+  },
+  {
+   "s": "FB",
+   "t": "VES",
+   "w": 1246,
+   "sign": 1
+  },
+  {
+   "s": "FLA",
+   "t": "AVLP",
+   "w": 2653,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "CRE",
+   "w": 496,
+   "sign": 1
+  },
+  {
+   "s": "FLA",
+   "t": "FB",
+   "w": 738,
+   "sign": 1
+  },
+  {
+   "s": "FLA",
+   "t": "FLA",
+   "w": 15698,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "GNG",
+   "w": 11300,
+   "sign": 1
+  },
+  {
+   "s": "FLA",
+   "t": "IB",
+   "w": 213,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "ICL",
+   "w": 3239,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "LAL",
+   "w": 847,
+   "sign": 1
+  },
+  {
+   "s": "FLA",
+   "t": "PLP",
+   "w": 926,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "PRW",
+   "w": 14794,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "SCL",
+   "w": 786,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "SIP",
+   "w": 433,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "SLP",
+   "w": 6128,
+   "sign": 1
+  },
+  {
+   "s": "FLA",
+   "t": "SMP",
+   "w": 26875,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "SPS",
+   "w": 1028,
+   "sign": -1
+  },
+  {
+   "s": "FLA",
+   "t": "VES",
+   "w": 2015,
+   "sign": 1
+  },
+  {
+   "s": "GA",
+   "t": "EB",
+   "w": 2214,
+   "sign": -1
+  },
+  {
+   "s": "GA",
+   "t": "NO",
+   "w": 447,
+   "sign": -1
+  },
+  {
+   "s": "GA",
+   "t": "PB",
+   "w": 1964,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "AL",
+   "w": 5854,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "AMMC",
+   "w": 10004,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "AOTU",
+   "w": 876,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "AVLP",
+   "w": 85878,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "CAN",
+   "w": 195,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "CRE",
+   "w": 2217,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "EB",
+   "w": 477,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "FB",
+   "w": 396,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "FLA",
+   "w": 4537,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "GNG",
+   "w": 1730346,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "GOR",
+   "w": 795,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "IB",
+   "w": 3864,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "ICL",
+   "w": 24188,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "IPS",
+   "w": 88376,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "LAL",
+   "w": 46995,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "LH",
+   "w": 10919,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "LO",
+   "w": 27406,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "LOP",
+   "w": 1559,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "MB_CA",
+   "w": 540,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "ME",
+   "w": 54345,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "PB",
+   "w": 336,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "PLP",
+   "w": 24536,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "PRW",
+   "w": 48410,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "PVLP",
+   "w": 13868,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "SAD",
+   "w": 38255,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "SCL",
+   "w": 5929,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "SIP",
+   "w": 1513,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "SLP",
+   "w": 29164,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "SMP",
+   "w": 19013,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "SPS",
+   "w": 72197,
+   "sign": 1
+  },
+  {
+   "s": "GNG",
+   "t": "VES",
+   "w": 76315,
+   "sign": -1
+  },
+  {
+   "s": "GNG",
+   "t": "WED",
+   "w": 9451,
+   "sign": -1
+  },
+  {
+   "s": "GOR",
+   "t": "AVLP",
+   "w": 721,
+   "sign": 1
+  },
+  {
+   "s": "GOR",
+   "t": "GNG",
+   "w": 4001,
+   "sign": -1
+  },
+  {
+   "s": "GOR",
+   "t": "ICL",
+   "w": 1031,
+   "sign": 1
+  },
+  {
+   "s": "GOR",
+   "t": "IPS",
+   "w": 526,
+   "sign": 1
+  },
+  {
+   "s": "GOR",
+   "t": "LAL",
+   "w": 598,
+   "sign": 1
+  },
+  {
+   "s": "GOR",
+   "t": "PVLP",
+   "w": 457,
+   "sign": 1
+  },
+  {
+   "s": "GOR",
+   "t": "SMP",
+   "w": 335,
+   "sign": -1
+  },
+  {
+   "s": "GOR",
+   "t": "SPS",
+   "w": 672,
+   "sign": 1
+  },
+  {
+   "s": "GOR",
+   "t": "VES",
+   "w": 2137,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "AOTU",
+   "w": 1099,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "ATL",
+   "w": 296,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "AVLP",
+   "w": 2706,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "CRE",
+   "w": 2747,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "FLA",
+   "w": 221,
+   "sign": 1
+  },
+  {
+   "s": "IB",
+   "t": "GNG",
+   "w": 2241,
+   "sign": 1
+  },
+  {
+   "s": "IB",
+   "t": "IB",
+   "w": 5884,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "ICL",
+   "w": 3083,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "IPS",
+   "w": 1217,
+   "sign": 1
+  },
+  {
+   "s": "IB",
+   "t": "LAL",
+   "w": 4149,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "LH",
+   "w": 246,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "LO",
+   "w": 14013,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "ME",
+   "w": 272,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "PLP",
+   "w": 3567,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "PVLP",
+   "w": 333,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "SCL",
+   "w": 513,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "SIP",
+   "w": 370,
+   "sign": 1
+  },
+  {
+   "s": "IB",
+   "t": "SLP",
+   "w": 269,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "SMP",
+   "w": 5616,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "SPS",
+   "w": 18387,
+   "sign": -1
+  },
+  {
+   "s": "IB",
+   "t": "VES",
+   "w": 11952,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "AMMC",
+   "w": 217,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "AOTU",
+   "w": 2332,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "AVLP",
+   "w": 39957,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "CAN",
+   "w": 347,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "CRE",
+   "w": 2061,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "FLA",
+   "w": 513,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "GNG",
+   "w": 34496,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "GOR",
+   "w": 891,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "IB",
+   "w": 9125,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "ICL",
+   "w": 71212,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "IPS",
+   "w": 4432,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "LAL",
+   "w": 5940,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "LH",
+   "w": 1010,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "LO",
+   "w": 4132,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "ME",
+   "w": 630,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "PLP",
+   "w": 11309,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "PVLP",
+   "w": 5920,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "SAD",
+   "w": 978,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "SCL",
+   "w": 5568,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "SIP",
+   "w": 1840,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "SLP",
+   "w": 6938,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "SMP",
+   "w": 27241,
+   "sign": -1
+  },
+  {
+   "s": "ICL",
+   "t": "SPS",
+   "w": 45097,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "VES",
+   "w": 5355,
+   "sign": 1
+  },
+  {
+   "s": "ICL",
+   "t": "WED",
+   "w": 414,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "AL",
+   "w": 559,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "AME",
+   "w": 528,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "AMMC",
+   "w": 4507,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "AOTU",
+   "w": 1689,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "ATL",
+   "w": 200,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "AVLP",
+   "w": 6124,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "CRE",
+   "w": 1356,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "EB",
+   "w": 1352,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "FB",
+   "w": 1592,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "GNG",
+   "w": 59524,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "IB",
+   "w": 864,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "ICL",
+   "w": 3014,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "IPS",
+   "w": 271473,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "LAL",
+   "w": 72977,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "LH",
+   "w": 3518,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "LO",
+   "w": 14099,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "LOP",
+   "w": 51396,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "ME",
+   "w": 96286,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "NO",
+   "w": 754,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "OCG",
+   "w": 454,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "PB",
+   "w": 986,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "PLP",
+   "w": 42786,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "PVLP",
+   "w": 3429,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "SAD",
+   "w": 32472,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "SCL",
+   "w": 196,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "SIP",
+   "w": 455,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "SLP",
+   "w": 241,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "SMP",
+   "w": 2178,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "SPS",
+   "w": 104337,
+   "sign": -1
+  },
+  {
+   "s": "IPS",
+   "t": "VES",
+   "w": 8834,
+   "sign": 1
+  },
+  {
+   "s": "IPS",
+   "t": "WED",
+   "w": 20077,
+   "sign": -1
+  },
+  {
+   "s": "LA",
+   "t": "LA",
+   "w": 132866,
+   "sign": 1
+  },
+  {
+   "s": "LA",
+   "t": "LO",
+   "w": 299,
+   "sign": 1
+  },
+  {
+   "s": "LA",
+   "t": "ME",
+   "w": 284204,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "AL",
+   "w": 1771,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "AMMC",
+   "w": 559,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "AOTU",
+   "w": 17118,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "AVLP",
+   "w": 9100,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "CRE",
+   "w": 31335,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "EB",
+   "w": 9453,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "FB",
+   "w": 6553,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "FLA",
+   "w": 488,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "GA",
+   "w": 937,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "GNG",
+   "w": 41063,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "IB",
+   "w": 1177,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "ICL",
+   "w": 1708,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "IPS",
+   "w": 59045,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "LAL",
+   "w": 335938,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "LH",
+   "w": 5582,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "LO",
+   "w": 34744,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "LOP",
+   "w": 387,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "MB_ML",
+   "w": 859,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "MB_VL",
+   "w": 713,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "ME",
+   "w": 2368,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "NO",
+   "w": 27150,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "PB",
+   "w": 834,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "PLP",
+   "w": 21269,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "PRW",
+   "w": 400,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "PVLP",
+   "w": 8709,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "SAD",
+   "w": 5308,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "SCL",
+   "w": 1068,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "SIP",
+   "w": 2861,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "SLP",
+   "w": 1065,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "SMP",
+   "w": 30284,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "SPS",
+   "w": 51484,
+   "sign": -1
+  },
+  {
+   "s": "LAL",
+   "t": "VES",
+   "w": 39593,
+   "sign": 1
+  },
+  {
+   "s": "LAL",
+   "t": "WED",
+   "w": 7900,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "AL",
+   "w": 35330,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "AOTU",
+   "w": 326,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "ATL",
+   "w": 422,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "AVLP",
+   "w": 36357,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "CRE",
+   "w": 14932,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "FB",
+   "w": 1560,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "GNG",
+   "w": 5025,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "ICL",
+   "w": 2496,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "IPS",
+   "w": 297,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "LAL",
+   "w": 4245,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "LH",
+   "w": 256839,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "LO",
+   "w": 910,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "MB_CA",
+   "w": 6144,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "MB_ML",
+   "w": 2408,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "MB_VL",
+   "w": 2945,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "PLP",
+   "w": 25010,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "PRW",
+   "w": 923,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "PVLP",
+   "w": 4559,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "SAD",
+   "w": 206,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "SCL",
+   "w": 6159,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "SIP",
+   "w": 6205,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "SLP",
+   "w": 124209,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "SMP",
+   "w": 48538,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "SPS",
+   "w": 1070,
+   "sign": 1
+  },
+  {
+   "s": "LH",
+   "t": "VES",
+   "w": 2322,
+   "sign": -1
+  },
+  {
+   "s": "LH",
+   "t": "WED",
+   "w": 351,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "AMMC",
+   "w": 513,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "AOTU",
+   "w": 91748,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "AVLP",
+   "w": 216474,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "CRE",
+   "w": 2623,
+   "sign": -1
+  },
+  {
+   "s": "LO",
+   "t": "GNG",
+   "w": 8969,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "GOR",
+   "w": 276,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "IB",
+   "w": 9387,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "ICL",
+   "w": 14312,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "IPS",
+   "w": 4725,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "LAL",
+   "w": 23407,
+   "sign": -1
+  },
+  {
+   "s": "LO",
+   "t": "LH",
+   "w": 4821,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "LO",
+   "w": 1313368,
+   "sign": -1
+  },
+  {
+   "s": "LO",
+   "t": "LOP",
+   "w": 465480,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "ME",
+   "w": 354208,
+   "sign": -1
+  },
+  {
+   "s": "LO",
+   "t": "PLP",
+   "w": 129213,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "PVLP",
+   "w": 500038,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "SAD",
+   "w": 628,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "SCL",
+   "w": 12430,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "SIP",
+   "w": 2122,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "SLP",
+   "w": 16483,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "SMP",
+   "w": 12426,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "SPS",
+   "w": 113768,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "VES",
+   "w": 27509,
+   "sign": 1
+  },
+  {
+   "s": "LO",
+   "t": "WED",
+   "w": 2251,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "AOTU",
+   "w": 420,
+   "sign": -1
+  },
+  {
+   "s": "LOP",
+   "t": "AVLP",
+   "w": 5674,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "GNG",
+   "w": 1052,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "IPS",
+   "w": 36701,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "LAL",
+   "w": 6546,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "LH",
+   "w": 197,
+   "sign": -1
+  },
+  {
+   "s": "LOP",
+   "t": "LO",
+   "w": 150131,
+   "sign": -1
+  },
+  {
+   "s": "LOP",
+   "t": "LOP",
+   "w": 474960,
+   "sign": -1
+  },
+  {
+   "s": "LOP",
+   "t": "ME",
+   "w": 172933,
+   "sign": -1
+  },
+  {
+   "s": "LOP",
+   "t": "PLP",
+   "w": 78100,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "PVLP",
+   "w": 19041,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "SAD",
+   "w": 409,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "SPS",
+   "w": 17746,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "VES",
+   "w": 240,
+   "sign": 1
+  },
+  {
+   "s": "LOP",
+   "t": "WED",
+   "w": 1034,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "AL",
+   "w": 680,
+   "sign": -1
+  },
+  {
+   "s": "MB_CA",
+   "t": "AVLP",
+   "w": 277,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "CRE",
+   "w": 7912,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "LAL",
+   "w": 1044,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "LH",
+   "w": 1168,
+   "sign": -1
+  },
+  {
+   "s": "MB_CA",
+   "t": "MB_CA",
+   "w": 19465,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "MB_ML",
+   "w": 270833,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "MB_PED",
+   "w": 12424,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "MB_VL",
+   "w": 40575,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "ME",
+   "w": 194,
+   "sign": -1
+  },
+  {
+   "s": "MB_CA",
+   "t": "PLP",
+   "w": 1534,
+   "sign": -1
+  },
+  {
+   "s": "MB_CA",
+   "t": "SIP",
+   "w": 2407,
+   "sign": 1
+  },
+  {
+   "s": "MB_CA",
+   "t": "SLP",
+   "w": 1300,
+   "sign": -1
+  },
+  {
+   "s": "MB_CA",
+   "t": "SMP",
+   "w": 7164,
+   "sign": 1
+  },
+  {
+   "s": "MB_ML",
+   "t": "AL",
+   "w": 3320,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "AVLP",
+   "w": 211,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "CRE",
+   "w": 14477,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "FB",
+   "w": 1049,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "LAL",
+   "w": 3130,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "LH",
+   "w": 4320,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "MB_CA",
+   "w": 91654,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "MB_ML",
+   "w": 39348,
+   "sign": 1
+  },
+  {
+   "s": "MB_ML",
+   "t": "MB_PED",
+   "w": 2157,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "MB_VL",
+   "w": 6375,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "PLP",
+   "w": 3792,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "SCL",
+   "w": 1145,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "SIP",
+   "w": 1326,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "SLP",
+   "w": 3196,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "SMP",
+   "w": 12537,
+   "sign": -1
+  },
+  {
+   "s": "MB_ML",
+   "t": "VES",
+   "w": 255,
+   "sign": -1
+  },
+  {
+   "s": "MB_PED",
+   "t": "CRE",
+   "w": 1670,
+   "sign": -1
+  },
+  {
+   "s": "MB_PED",
+   "t": "MB_CA",
+   "w": 258,
+   "sign": 1
+  },
+  {
+   "s": "MB_PED",
+   "t": "MB_ML",
+   "w": 3772,
+   "sign": -1
+  },
+  {
+   "s": "MB_PED",
+   "t": "MB_PED",
+   "w": 395,
+   "sign": 1
+  },
+  {
+   "s": "MB_PED",
+   "t": "MB_VL",
+   "w": 238,
+   "sign": -1
+  },
+  {
+   "s": "MB_PED",
+   "t": "SLP",
+   "w": 297,
+   "sign": -1
+  },
+  {
+   "s": "MB_PED",
+   "t": "SMP",
+   "w": 1477,
+   "sign": -1
+  },
+  {
+   "s": "MB_VL",
+   "t": "AL",
+   "w": 521,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "CRE",
+   "w": 7283,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "FB",
+   "w": 353,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "LAL",
+   "w": 1547,
+   "sign": -1
+  },
+  {
+   "s": "MB_VL",
+   "t": "LH",
+   "w": 6714,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "MB_CA",
+   "w": 376,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "MB_ML",
+   "w": 4402,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "MB_VL",
+   "w": 1886,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "PLP",
+   "w": 785,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "SIP",
+   "w": 2111,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "SLP",
+   "w": 4687,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "SMP",
+   "w": 17313,
+   "sign": 1
+  },
+  {
+   "s": "MB_VL",
+   "t": "VES",
+   "w": 201,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "AME",
+   "w": 5152,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "AOTU",
+   "w": 25960,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "AVLP",
+   "w": 31623,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "CRE",
+   "w": 420,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "FB",
+   "w": 547,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "GNG",
+   "w": 3769,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "IB",
+   "w": 1105,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "ICL",
+   "w": 4869,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "IPS",
+   "w": 20951,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "LA",
+   "w": 92608,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "LAL",
+   "w": 702,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "LH",
+   "w": 1678,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "LO",
+   "w": 1975041,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "LOP",
+   "w": 528629,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "MB_CA",
+   "w": 513,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "ME",
+   "w": 8917206,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "PLP",
+   "w": 79508,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "PVLP",
+   "w": 14582,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "SAD",
+   "w": 392,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "SCL",
+   "w": 5281,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "SIP",
+   "w": 503,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "SLP",
+   "w": 8315,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "SMP",
+   "w": 4954,
+   "sign": 1
+  },
+  {
+   "s": "ME",
+   "t": "SPS",
+   "w": 39826,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "VES",
+   "w": 3164,
+   "sign": -1
+  },
+  {
+   "s": "ME",
+   "t": "WED",
+   "w": 2416,
+   "sign": 1
+  },
+  {
+   "s": "NO",
+   "t": "EB",
+   "w": 9515,
+   "sign": 1
+  },
+  {
+   "s": "NO",
+   "t": "FB",
+   "w": 35347,
+   "sign": 1
+  },
+  {
+   "s": "NO",
+   "t": "IPS",
+   "w": 1593,
+   "sign": 1
+  },
+  {
+   "s": "NO",
+   "t": "LAL",
+   "w": 6614,
+   "sign": 1
+  },
+  {
+   "s": "NO",
+   "t": "NO",
+   "w": 29966,
+   "sign": 1
+  },
+  {
+   "s": "NO",
+   "t": "PB",
+   "w": 709,
+   "sign": 1
+  },
+  {
+   "s": "OCG",
+   "t": "GNG",
+   "w": 1137,
+   "sign": -1
+  },
+  {
+   "s": "OCG",
+   "t": "IPS",
+   "w": 5309,
+   "sign": 1
+  },
+  {
+   "s": "OCG",
+   "t": "OCG",
+   "w": 4346,
+   "sign": -1
+  },
+  {
+   "s": "OCG",
+   "t": "SPS",
+   "w": 6888,
+   "sign": 1
+  },
+  {
+   "s": "PB",
+   "t": "EB",
+   "w": 9043,
+   "sign": 1
+  },
+  {
+   "s": "PB",
+   "t": "FB",
+   "w": 11209,
+   "sign": -1
+  },
+  {
+   "s": "PB",
+   "t": "GA",
+   "w": 2647,
+   "sign": 1
+  },
+  {
+   "s": "PB",
+   "t": "LAL",
+   "w": 192,
+   "sign": 1
+  },
+  {
+   "s": "PB",
+   "t": "NO",
+   "w": 10046,
+   "sign": -1
+  },
+  {
+   "s": "PB",
+   "t": "PB",
+   "w": 9711,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "AL",
+   "w": 6904,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "AME",
+   "w": 1880,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "AMMC",
+   "w": 435,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "AOTU",
+   "w": 6708,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "ATL",
+   "w": 3083,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "AVLP",
+   "w": 80451,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "CRE",
+   "w": 10188,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "EB",
+   "w": 1565,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "FB",
+   "w": 3430,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "GNG",
+   "w": 16060,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "IB",
+   "w": 5687,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "ICL",
+   "w": 44185,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "IPS",
+   "w": 37874,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "LAL",
+   "w": 32951,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "LH",
+   "w": 32176,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "LO",
+   "w": 56785,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "LOP",
+   "w": 15140,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "MB_CA",
+   "w": 4527,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "MB_ML",
+   "w": 10052,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "MB_PED",
+   "w": 692,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "ME",
+   "w": 81634,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "PLP",
+   "w": 227385,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "PVLP",
+   "w": 27288,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "SAD",
+   "w": 6890,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "SCL",
+   "w": 26504,
+   "sign": -1
+  },
+  {
+   "s": "PLP",
+   "t": "SIP",
+   "w": 3498,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "SLP",
+   "w": 51460,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "SMP",
+   "w": 51162,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "SPS",
+   "w": 78804,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "VES",
+   "w": 22151,
+   "sign": 1
+  },
+  {
+   "s": "PLP",
+   "t": "WED",
+   "w": 13915,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "AL",
+   "w": 272,
+   "sign": -1
+  },
+  {
+   "s": "PRW",
+   "t": "AVLP",
+   "w": 309,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "FB",
+   "w": 192,
+   "sign": -1
+  },
+  {
+   "s": "PRW",
+   "t": "FLA",
+   "w": 10476,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "GNG",
+   "w": 79276,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "LAL",
+   "w": 365,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "LH",
+   "w": 996,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "PRW",
+   "w": 150888,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "SLP",
+   "w": 7360,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "SMP",
+   "w": 21927,
+   "sign": 1
+  },
+  {
+   "s": "PRW",
+   "t": "SPS",
+   "w": 284,
+   "sign": -1
+  },
+  {
+   "s": "PRW",
+   "t": "VES",
+   "w": 663,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "AMMC",
+   "w": 789,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "AOTU",
+   "w": 2367,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "AVLP",
+   "w": 276840,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "GNG",
+   "w": 10754,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "GOR",
+   "w": 873,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "IB",
+   "w": 313,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "ICL",
+   "w": 10964,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "IPS",
+   "w": 2040,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "LAL",
+   "w": 12219,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "LH",
+   "w": 1948,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "LO",
+   "w": 115310,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "LOP",
+   "w": 5608,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "ME",
+   "w": 28402,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "PLP",
+   "w": 16996,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "PVLP",
+   "w": 197233,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "SAD",
+   "w": 1013,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "SCL",
+   "w": 2567,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "SIP",
+   "w": 1373,
+   "sign": -1
+  },
+  {
+   "s": "PVLP",
+   "t": "SLP",
+   "w": 5241,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "SMP",
+   "w": 2712,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "SPS",
+   "w": 10887,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "VES",
+   "w": 5635,
+   "sign": 1
+  },
+  {
+   "s": "PVLP",
+   "t": "WED",
+   "w": 1576,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "AL",
+   "w": 10956,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "AMMC",
+   "w": 28018,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "AVLP",
+   "w": 43101,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "FB",
+   "w": 227,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "FLA",
+   "w": 577,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "GNG",
+   "w": 33491,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "GOR",
+   "w": 522,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "IB",
+   "w": 259,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "ICL",
+   "w": 1903,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "IPS",
+   "w": 39664,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "LAL",
+   "w": 2418,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "LH",
+   "w": 719,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "LO",
+   "w": 1369,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "LOP",
+   "w": 496,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "PLP",
+   "w": 7088,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "PRW",
+   "w": 393,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "PVLP",
+   "w": 5540,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "SAD",
+   "w": 138312,
+   "sign": -1
+  },
+  {
+   "s": "SAD",
+   "t": "SLP",
+   "w": 808,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "SMP",
+   "w": 882,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "SPS",
+   "w": 24114,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "VES",
+   "w": 4726,
+   "sign": 1
+  },
+  {
+   "s": "SAD",
+   "t": "WED",
+   "w": 56781,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "AOTU",
+   "w": 1157,
+   "sign": -1
+  },
+  {
+   "s": "SCL",
+   "t": "AVLP",
+   "w": 12039,
+   "sign": -1
+  },
+  {
+   "s": "SCL",
+   "t": "CRE",
+   "w": 1480,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "FB",
+   "w": 225,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "FLA",
+   "w": 251,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "GNG",
+   "w": 2080,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "IB",
+   "w": 2520,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "ICL",
+   "w": 14767,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "LAL",
+   "w": 656,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "LH",
+   "w": 2197,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "LO",
+   "w": 657,
+   "sign": -1
+  },
+  {
+   "s": "SCL",
+   "t": "MB_ML",
+   "w": 3322,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "MB_PED",
+   "w": 375,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "ME",
+   "w": 467,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "PLP",
+   "w": 13356,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "PVLP",
+   "w": 915,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "SCL",
+   "w": 12213,
+   "sign": -1
+  },
+  {
+   "s": "SCL",
+   "t": "SIP",
+   "w": 1017,
+   "sign": -1
+  },
+  {
+   "s": "SCL",
+   "t": "SLP",
+   "w": 18340,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "SMP",
+   "w": 27400,
+   "sign": -1
+  },
+  {
+   "s": "SCL",
+   "t": "SPS",
+   "w": 4635,
+   "sign": 1
+  },
+  {
+   "s": "SCL",
+   "t": "VES",
+   "w": 1404,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "AOTU",
+   "w": 6294,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "AVLP",
+   "w": 7960,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "CRE",
+   "w": 6662,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "FB",
+   "w": 2021,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "FLA",
+   "w": 282,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "GNG",
+   "w": 4030,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "IB",
+   "w": 596,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "ICL",
+   "w": 2058,
+   "sign": -1
+  },
+  {
+   "s": "SIP",
+   "t": "IPS",
+   "w": 1651,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "LAL",
+   "w": 5419,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "LH",
+   "w": 5721,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "LO",
+   "w": 337,
+   "sign": -1
+  },
+  {
+   "s": "SIP",
+   "t": "MB_ML",
+   "w": 726,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "MB_VL",
+   "w": 448,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "PLP",
+   "w": 4127,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "PVLP",
+   "w": 2888,
+   "sign": -1
+  },
+  {
+   "s": "SIP",
+   "t": "SAD",
+   "w": 576,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "SCL",
+   "w": 506,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "SIP",
+   "w": 14384,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "SLP",
+   "w": 5525,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "SMP",
+   "w": 31787,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "SPS",
+   "w": 5945,
+   "sign": 1
+  },
+  {
+   "s": "SIP",
+   "t": "VES",
+   "w": 2168,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "AL",
+   "w": 3268,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "AOTU",
+   "w": 1153,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "AVLP",
+   "w": 51730,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "CRE",
+   "w": 1872,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "FB",
+   "w": 7896,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "FLA",
+   "w": 3157,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "GNG",
+   "w": 6487,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "GOR",
+   "w": 355,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "IB",
+   "w": 1148,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "ICL",
+   "w": 35126,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "LAL",
+   "w": 766,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "LH",
+   "w": 48964,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "LO",
+   "w": 2850,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "MB_CA",
+   "w": 1197,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "MB_ML",
+   "w": 4164,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "MB_PED",
+   "w": 626,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "MB_VL",
+   "w": 1198,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "ME",
+   "w": 1219,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "PLP",
+   "w": 24525,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "PRW",
+   "w": 3969,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "PVLP",
+   "w": 3747,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "SAD",
+   "w": 235,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "SCL",
+   "w": 17764,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "SIP",
+   "w": 4802,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "SLP",
+   "w": 219440,
+   "sign": -1
+  },
+  {
+   "s": "SLP",
+   "t": "SMP",
+   "w": 101848,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "SPS",
+   "w": 5443,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "VES",
+   "w": 2470,
+   "sign": 1
+  },
+  {
+   "s": "SLP",
+   "t": "WED",
+   "w": 250,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "AL",
+   "w": 8614,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "AME",
+   "w": 260,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "AOTU",
+   "w": 18374,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "ATL",
+   "w": 3912,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "AVLP",
+   "w": 15772,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "CRE",
+   "w": 82627,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "EB",
+   "w": 2834,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "FB",
+   "w": 52089,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "FLA",
+   "w": 20436,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "GNG",
+   "w": 26140,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "IB",
+   "w": 13641,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "ICL",
+   "w": 25077,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "IPS",
+   "w": 2192,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "LAL",
+   "w": 54103,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "LH",
+   "w": 23458,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "LO",
+   "w": 26738,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "MB_CA",
+   "w": 589,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "MB_ML",
+   "w": 7285,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "MB_PED",
+   "w": 1243,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "MB_VL",
+   "w": 3737,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "ME",
+   "w": 3860,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "PLP",
+   "w": 16698,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "PRW",
+   "w": 20920,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "PVLP",
+   "w": 1049,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "SAD",
+   "w": 1174,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "SCL",
+   "w": 8111,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "SIP",
+   "w": 25302,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "SLP",
+   "w": 43709,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "SMP",
+   "w": 599081,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "SPS",
+   "w": 26630,
+   "sign": -1
+  },
+  {
+   "s": "SMP",
+   "t": "VES",
+   "w": 19871,
+   "sign": 1
+  },
+  {
+   "s": "SMP",
+   "t": "WED",
+   "w": 570,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "AMMC",
+   "w": 1594,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "AOTU",
+   "w": 11428,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "ATL",
+   "w": 1010,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "AVLP",
+   "w": 8226,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "CRE",
+   "w": 3570,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "EB",
+   "w": 2193,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "FB",
+   "w": 695,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "FLA",
+   "w": 943,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "GNG",
+   "w": 51962,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "GOR",
+   "w": 306,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "IB",
+   "w": 11987,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "ICL",
+   "w": 24625,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "IPS",
+   "w": 97637,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "LAL",
+   "w": 53660,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "LH",
+   "w": 451,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "LO",
+   "w": 80920,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "LOP",
+   "w": 10454,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "ME",
+   "w": 94240,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "NO",
+   "w": 335,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "OCG",
+   "w": 2325,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "PB",
+   "w": 260,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "PLP",
+   "w": 32915,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "PVLP",
+   "w": 3849,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "SAD",
+   "w": 15928,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "SCL",
+   "w": 2070,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "SIP",
+   "w": 1878,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "SLP",
+   "w": 2139,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "SMP",
+   "w": 12135,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "SPS",
+   "w": 309035,
+   "sign": -1
+  },
+  {
+   "s": "SPS",
+   "t": "VES",
+   "w": 33815,
+   "sign": 1
+  },
+  {
+   "s": "SPS",
+   "t": "WED",
+   "w": 3855,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "AL",
+   "w": 1124,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "AOTU",
+   "w": 5732,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "AVLP",
+   "w": 13485,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "CRE",
+   "w": 4833,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "FB",
+   "w": 999,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "FLA",
+   "w": 1499,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "GNG",
+   "w": 72686,
+   "sign": 1
+  },
+  {
+   "s": "VES",
+   "t": "GOR",
+   "w": 366,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "IB",
+   "w": 7656,
+   "sign": 1
+  },
+  {
+   "s": "VES",
+   "t": "ICL",
+   "w": 9929,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "IPS",
+   "w": 5492,
+   "sign": 1
+  },
+  {
+   "s": "VES",
+   "t": "LAL",
+   "w": 41931,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "LH",
+   "w": 2871,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "LO",
+   "w": 15541,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "LOP",
+   "w": 2284,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "MB_ML",
+   "w": 256,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "ME",
+   "w": 3783,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "PLP",
+   "w": 21008,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "PRW",
+   "w": 476,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "PVLP",
+   "w": 4602,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "SAD",
+   "w": 747,
+   "sign": 1
+  },
+  {
+   "s": "VES",
+   "t": "SCL",
+   "w": 5743,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "SIP",
+   "w": 2525,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "SLP",
+   "w": 8613,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "SMP",
+   "w": 18383,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "SPS",
+   "w": 32345,
+   "sign": 1
+  },
+  {
+   "s": "VES",
+   "t": "VES",
+   "w": 122988,
+   "sign": -1
+  },
+  {
+   "s": "VES",
+   "t": "WED",
+   "w": 1494,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "AL",
+   "w": 1156,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "AMMC",
+   "w": 5884,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "AOTU",
+   "w": 1782,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "AVLP",
+   "w": 49395,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "CRE",
+   "w": 575,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "GNG",
+   "w": 10636,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "IB",
+   "w": 447,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "ICL",
+   "w": 2148,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "IPS",
+   "w": 15427,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "LAL",
+   "w": 10755,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "LH",
+   "w": 5927,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "LO",
+   "w": 1743,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "LOP",
+   "w": 388,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "PLP",
+   "w": 21263,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "PVLP",
+   "w": 6522,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "SAD",
+   "w": 24579,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "SCL",
+   "w": 389,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "SIP",
+   "w": 357,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "SLP",
+   "w": 628,
+   "sign": -1
+  },
+  {
+   "s": "WED",
+   "t": "SMP",
+   "w": 997,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "SPS",
+   "w": 11734,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "VES",
+   "w": 6257,
+   "sign": 1
+  },
+  {
+   "s": "WED",
+   "t": "WED",
+   "w": 52702,
+   "sign": -1
+  }
+ ]
+}
